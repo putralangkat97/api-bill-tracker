@@ -17,7 +17,7 @@ return [
 
     'paths' => ['/api/*', '/sanctum/csrf-cookie', '/login', '/register'],
 
-    'allowed_methods' => ['*'],
+    'allowed_methods' => ['GET', 'POST', 'PUT', 'DELETE'],
 
     'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:3000'), 'https://bill-tracker.pucukpisang.my.id'],
 
